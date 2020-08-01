@@ -3,7 +3,7 @@ def is_prime?(number)
     false 
   elsif number == 2 
     true 
-  elsif (2..number-1 ).each {|int| return false if number % int == 0 )
+  elsif (2..number-1 ).each {|int| return false if number % int == 0)
     true
   end
 end
