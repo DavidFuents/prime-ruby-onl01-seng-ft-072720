@@ -1,4 +1,4 @@
-def prime?(number)
+def is_prime?(number)
   if number < 2 
     false 
   elsif number == 2 
