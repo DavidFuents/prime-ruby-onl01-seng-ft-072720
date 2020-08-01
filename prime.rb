@@ -3,6 +3,6 @@ def prime?(number)
     false 
   elsif number == 2 
     true 
-  elsif (2..number-1 )
+  elsif (2..number-1 ).each 
   
 end
